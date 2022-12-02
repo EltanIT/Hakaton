@@ -85,12 +85,13 @@
             android:layout_height="40dp"
             app:cardCornerRadius="22dp"
             app:cardElevation="3dp"
+            android:layout_marginBottom="40dp"
             >
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/signin_button"
+                android:id="@+id/submit_application"
                 android:layout_width="165dp"
                 android:layout_height="40dp"
-                android:text="@string/input"
+                android:text="@string/submit_application"
                 android:textColor="@color/white"
                 android:background="@drawable/request_button_shape"
                 android:backgroundTint="@color/agate_gray"
@@ -98,25 +99,9 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/request_button"
-                app:layout_constraintVertical_bias="0.9"
-                android:onClick="signin_button_clicked"
-                />
+                app:layout_constraintVertical_bias="0.9" />
 
         </androidx.cardview.widget.CardView>
-
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/signup_button"
-            android:layout_width="165dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="15dp"
-            android:text="@string/registration"
-            android:textColor="@color/agate_gray"
-            android:background="@drawable/request_button_shape"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/signin_button" />
     </LinearLayout>
 
 

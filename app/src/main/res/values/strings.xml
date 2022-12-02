@@ -5,4 +5,5 @@
     <string name="discription">Описание</string>
     <string name="input">Войти</string>
     <string name="registration">Регистрация</string>
+    <string name="submit_application">Оставить заявку</string>
 </resources>
