@@ -64,6 +64,9 @@
         app:layout_constraintHorizontal_bias="0.17"
         />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 
     <LinearLayout
@@ -87,7 +90,7 @@
                 android:id="@+id/signin_button"
                 android:layout_width="165dp"
                 android:layout_height="40dp"
-                android:text="@string/input"
+                android:text="@string/rating"
                 android:textColor="@color/white"
                 android:background="@drawable/request_button_shape"
                 android:backgroundTint="@color/agate_gray"
@@ -107,7 +110,7 @@
             android:layout_width="165dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:text="@string/registration"
+            android:text="@string/delete_request"
             android:textColor="@color/agate_gray"
             android:background="@drawable/request_button_shape"
             app:layout_constraintBottom_toBottomOf="parent"
